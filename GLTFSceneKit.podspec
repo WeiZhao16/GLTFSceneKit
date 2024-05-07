@@ -16,4 +16,5 @@ Pod::Spec.new do |s|
     "SWIFT_VERSION" => "4.0",
     "SWIFT_ACTIVE_COMPILATION_CONDITIONS" => "SEEMS_TO_HAVE_VALIDATE_VERTEX_ATTRIBUTE_BUG SEEMS_TO_HAVE_PNG_LOADING_BUG"
   }
+  s.resource_bundles = {'GLTFSceneKit' => ['Sources/GLTFSceneKit/PrivacyInfo.xcprivacy']}
 end
