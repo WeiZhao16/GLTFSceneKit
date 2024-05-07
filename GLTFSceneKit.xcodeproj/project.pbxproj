@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1213286D231A535600083524 /* GLTFExtrasTargetNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1213286C231A535600083524 /* GLTFExtrasTargetNames.swift */; };
 		12132870231A552900083524 /* GLTFExtrasTargetNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1213286C231A535600083524 /* GLTFExtrasTargetNames.swift */; };
+		20EB4CD62BE9E0CA00CCF9C1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 20EB4CD52BE9E0CA00CCF9C1 /* PrivacyInfo.xcprivacy */; };
 		46A8CD2726E6B240008819AB /* GLTFSceneKit+BundleFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A8CD2626E6B240008819AB /* GLTFSceneKit+BundleFinder.swift */; };
 		46A8CD2826E6B240008819AB /* GLTFSceneKit+BundleFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A8CD2626E6B240008819AB /* GLTFSceneKit+BundleFinder.swift */; };
 		491BC4FA276F0A7A00E7A448 /* GLTFVRM_VRMSpringBone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491BC4F9276F0A7A00E7A448 /* GLTFVRM_VRMSpringBone.swift */; };
@@ -186,6 +187,7 @@
 
 /* Begin PBXFileReference section */
 		1213286C231A535600083524 /* GLTFExtrasTargetNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLTFExtrasTargetNames.swift; sourceTree = "<group>"; };
+		20EB4CD52BE9E0CA00CCF9C1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		46A8CD2626E6B240008819AB /* GLTFSceneKit+BundleFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GLTFSceneKit+BundleFinder.swift"; sourceTree = "<group>"; };
 		491BC4F9276F0A7A00E7A448 /* GLTFVRM_VRMSpringBone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLTFVRM_VRMSpringBone.swift; sourceTree = "<group>"; };
 		491BC4FC276F7E5700E7A448 /* GLTFVRM_VRMSpringBoneLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLTFVRM_VRMSpringBoneLogic.swift; sourceTree = "<group>"; };
@@ -315,6 +317,7 @@
 		49D5C8AB2767081E0076FB22 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				20EB4CD52BE9E0CA00CCF9C1 /* PrivacyInfo.xcprivacy */,
 				49D5C8AC2767081E0076FB22 /* VRM */,
 				49D5C8AF2767081E0076FB22 /* GLTFShaderModifierSurface_alphaModeBlend.shader */,
 				49D5C8B02767081E0076FB22 /* GLTFShaderModifierSurface.shader */,
@@ -667,6 +670,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49FBB50327670A8100674883 /* GLTFShaderModifierFragment_VRMUnlitTexture.shader in Resources */,
+				20EB4CD62BE9E0CA00CCF9C1 /* PrivacyInfo.xcprivacy in Resources */,
 				49FBB50427670A8100674883 /* GLTFShaderModifierSurface_VRMMToon.shader in Resources */,
 				49FBB50527670A8100674883 /* GLTFShaderModifierSurface_alphaModeBlend.shader in Resources */,
 				49FBB50627670A8100674883 /* GLTFShaderModifierSurface.shader in Resources */,
